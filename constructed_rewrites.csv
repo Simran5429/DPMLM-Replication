@@ -1,0 +1,16 @@
+index,original,masked,rewritten,epsilon
+1,Alex’s Medicare number is 1234567; please confirm by email.,<mask>’s <mask> number is <mask>; please confirm by email.,Today’s phone number is unknown; please confirm by email.,1.0
+2,Contact Priya at priya.sharma@example.com after the event in Sydney.,<mask> at priya.sharma@example.com after the event in <mask>.,VP at priya.sharma@example.com after the event in NYC.,1.0
+3,"My booking reference ABC-998877 is under John Smith, Parramatta.","My booking reference ABC-<mask> is under <mask>, <mask>.","My booking reference ABC-TV is under contract, too.",1.0
+4,Call me on +61 412 345 678 if the delivery is late.,<mask> me on +61 <mask> <mask> <mask> if the delivery is late.,Call me on +61 555 8 787 if the delivery is late.,1.0
+5,Meeting moved to Canberra; Mia will send details from mia.j@company.au.,<mask> moved to <mask>; <mask> will send details from mia.j@company.au.,She moved to Melbourne; I will send details from mia.j@company.au.,1.0
+6,Invoice 7654321 was paid by Chen via card ending 4321.,<mask> <mask> was paid by <mask> via card ending <mask>.,The bill was paid by PayPal via card ending PayPal.,1.0
+7,Rahul from Melbourne shared a link; it expires 2025-11-30.,<mask> from <mask> shared a link; it expires <mask>-11-30.,Someone from Reddit shared a link; it expires 2017-11-30.,1.0
+8,Emergency contact: 0291234567; ask for Fatima.,<mask> contact: <mask>; ask for <mask>.,Please contact: Anonymous; ask for anonymity.,1.0
+9,UNSW ID Z1234567 needs reset; email it.support@unsw.edu.au.,UNSW ID Z1234567 needs reset; email it.support@unsw.edu.au.,UNSW ID Z1234567 needs reset; email it.support@unsw.edu.au.,1.0
+10,Dendy Newtown tickets booked under ‘Samir’ for 7:30pm.,<mask> tickets booked under ‘<mask>’ for 7:30pm.,All tickets booked under ‘Tickets’ for 7:30pm.,1.0
+11,Send the PDF to george_clark@provider.org; subject: CONFIDENTIAL.,<mask> the PDF to george_clark@provider.org; subject: CONFIDENTIAL.,Send the PDF to george_clark@provider.org; subject: CONFIDENTIAL.,1.0
+12,Passport ref P-778899; please verify in person at the desk.,<mask> ref P-<mask>; please verify in person at the desk.,See ref P-1; please verify in person at the desk.,1.0
+13,Michelle in Hobart approved the form; case 445566.,<mask> in <mask> approved the form; case <mask>.,Judge in court approved the form; case continues.,1.0
+14,Newcastle office said to ring +61 2 9000 1234 before 5pm.,<mask> office said to ring +61 2 <mask> <mask> before 5pm.,The office said to ring +61 2 6 777 before 5pm.,1.0
+15,Temporary login 876543 was created for Olivia in Brisbane.,<mask> login <mask> was created for <mask> in <mask>.,A login page was created for users in China.,1.0

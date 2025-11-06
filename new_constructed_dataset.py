@@ -1,0 +1,24 @@
+# make_constructed_dataset.py
+import pandas as pd
+
+rows = [
+    {"text": "Alex’s Medicare number is 1234567; please confirm by email."},
+    {"text": "Contact Priya at priya.sharma@example.com after the event in Sydney."},
+    {"text": "My booking reference ABC-998877 is under John Smith, Parramatta."},
+    {"text": "Call me on +61 412 345 678 if the delivery is late."},
+    {"text": "Meeting moved to Canberra; Mia will send details from mia.j@company.au."},
+    {"text": "Invoice 7654321 was paid by Chen via card ending 4321."},
+    {"text": "Rahul from Melbourne shared a link; it expires 2025-11-30."},
+    {"text": "Emergency contact: 0291234567; ask for Fatima."},
+    {"text": "UNSW ID Z1234567 needs reset; email it.support@unsw.edu.au."},
+    {"text": "Dendy Newtown tickets booked under ‘Samir’ for 7:30pm."},
+    {"text": "Send the PDF to george_clark@provider.org; subject: CONFIDENTIAL."},
+    {"text": "Passport ref P-778899; please verify in person at the desk."},
+    {"text": "Michelle in Hobart approved the form; case 445566."},
+    {"text": "Newcastle office said to ring +61 2 9000 1234 before 5pm."},
+    {"text": "Temporary login 876543 was created for Olivia in Brisbane."},
+]
+
+df = pd.DataFrame(rows)
+df.to_csv("new_constructed_dataset.csv", index=False, encoding="utf-8")
+print("Wrote new_constructed_dataset.csv with", len(df), "rows.")
